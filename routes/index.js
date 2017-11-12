@@ -21,6 +21,7 @@ router.post('/addthing/', function (req, res) {
     .then(r => res.json(r));
 });
 
+//Save all to DB
 router.post('/saveAll/', function (req, res) {   
 
   let dataToSave = req.body.bodyData;
